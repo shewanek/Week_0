@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
-from utils import fetch_data, preprocess_data  # Assuming these functions are defined in utils.py
+from utils import fetch_data, preprocess_data  
 
 
 # Load and preprocess the data
@@ -30,7 +30,6 @@ def main():
             padding-top: 1.5rem; /* Adjust this value to reduce padding-top */
         }
         #MainMenu { visibility: hidden; }
-        .stDeployButton { visibility: hidden; }
         .stButton button {
             background-color: #000000;
             border: 1px solid #ccc;
